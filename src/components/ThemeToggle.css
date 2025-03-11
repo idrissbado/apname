@@ -1,0 +1,43 @@
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .theme-toggle:hover {
+    background-color: var(--muted);
+  }
+  
+  .theme-toggle-icon {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .theme-toggle:hover .theme-toggle-icon {
+    transform: rotate(180deg);
+  }
+  
+  /* Light theme styles */
+  body.light-theme {
+    --background: #f8fafc;
+    --foreground: #0f172a;
+    --muted: #e2e8f0;
+    --muted-foreground: #64748b;
+    --accent: #f1f5f9;
+    --accent-foreground: #0f172a;
+    --primary: #0f172a;
+    --primary-foreground: #f8fafc;
+    --secondary: #f1f5f9;
+    --secondary-foreground: #0f172a;
+    --destructive: #ef4444;
+    --destructive-foreground: #f8fafc;
+    --border: #e2e8f0;
+    --input: #e2e8f0;
+    --ring: #94a3b8;
+  }
+  
+  
